@@ -1,0 +1,9 @@
+name: "yavinenana-cloudflare-purge-cache"
+description: "uPrge a zone's cache via the Cloudflare API"
+author: yavinenana
+branding:
+  icon: 'check-circle'
+  color: 'green'
+runs:
+  using: docker
+  image: 'docker://yavinenana/cloudflare-purge-cache:1.0'
